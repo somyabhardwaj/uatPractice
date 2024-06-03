@@ -1,0 +1,9 @@
+{
+	"name": "uat_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "jaishikha.sharma@trigya.co",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

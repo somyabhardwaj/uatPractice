@@ -1,0 +1,258 @@
+[debug] [2024-06-03T09:11:17.411Z] : 
+[debug] [2024-06-03T09:11:17.412Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T09:11:17.413Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-06-03T09:11:17.413Z] : CLI Version:  1.17.5
+[debug] [2024-06-03T09:11:17.414Z] : Platform:     win32
+[debug] [2024-06-03T09:11:17.414Z] : Node Version: v18.20.0
+[debug] [2024-06-03T09:11:17.416Z] : Time:         Mon Jun 03 2024 14:41:17 GMT+0530 (India Standard Time)
+[debug] [2024-06-03T09:11:17.416Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T09:11:17.416Z] : 
+[debug] [2024-06-03T09:11:18.416Z] : > authorizing via signed-in user option
+[debug] [2024-06-03T09:11:18.417Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-06-03T09:11:18.433Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23746000000026208 
+
+[debug] [2024-06-03T09:11:19.414Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 09:10:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=22348daa-4636-456d-9374-332db0b33eea;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=22348daa-4636-456d-9374-332db0b33eea;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T09:11:19.419Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23746000000026208/environment 
+
+[debug] [2024-06-03T09:11:21.299Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 09:10:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=b1c921e1-9a34-4c4f-9b03-605300eb954e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b1c921e1-9a34-4c4f-9b03-605300eb954e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T09:11:21.564Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23746000000026208/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-06-03T09:11:22.469Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 09:10:40 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=eb321b37-301d-4e59-a367-3ab5ffee2edf;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=eb321b37-301d-4e59-a367-3ab5ffee2edf;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T09:11:22.473Z] : unknown eol undefined hence skipping check
+[info] [2024-06-03T09:11:22.962Z] : 
+[info] [2024-06-03T09:11:22.962Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-06-03T09:11:22.964Z] : i uat_function: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:11:22.964Z] : 
+[info] [2024-06-03T09:15:21.015Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:15:21.465Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:15:21.466Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:15:50.935Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:15:51.387Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:15:51.388Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:16:03.596Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:16:04.065Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:16:04.066Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:16:19.068Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:16:19.471Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:16:19.472Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:19:25.827Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:19:26.252Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:19:26.252Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:20:20.368Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:20:20.786Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:20:20.787Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:20:59.071Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:20:59.558Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:20:59.561Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:21:15.830Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:21:16.246Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:21:16.247Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:22:10.628Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:22:11.056Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:22:11.056Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:23:15.195Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:23:15.620Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:23:15.621Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:23:42.372Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:23:42.790Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:23:42.791Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:25:11.623Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:25:12.046Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:25:12.047Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:25:38.596Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:25:39.011Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:25:39.012Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:25:58.962Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:26:00.064Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:26:00.071Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[debug] [2024-06-03T09:27:06.124Z] : > refreshing access token <
+[debug] [2024-06-03T09:27:06.125Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-06-03T09:27:07.028Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 09:26:24 GMT","content-type":"application/json;charset=UTF-8","content-length":"1945","connection":"close","set-cookie":["b266a5bf57=9f371135a524e2d1f51eb9f41fa26c60; Path=/","iamcsr=76ca6c7d-6438-4e68-b7b5-5264034487f5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=76ca6c7d-6438-4e68-b7b5-5264034487f5;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-06-03T09:27:48.658Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[debug] [2024-06-03T09:27:48.675Z] : Connection reset from target URL :  Url {
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: '127.0.0.1:3010',
+  port: '3010',
+  hostname: '127.0.0.1',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/',
+  href: 'http://127.0.0.1:3010/'
+}
+[info] [2024-06-03T09:27:49.122Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:27:49.122Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:27:56.051Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:27:56.476Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:27:56.477Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:28:25.065Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:28:25.485Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:28:25.486Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:29:06.222Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:29:06.663Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:29:06.664Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:29:27.693Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:29:28.122Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:29:28.122Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:29:30.483Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:29:30.892Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:29:30.893Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T09:29:34.650Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T09:29:35.060Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T09:29:35.060Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[debug] [2024-06-03T10:30:57.942Z] : > refreshing access token <
+[debug] [2024-06-03T10:30:57.962Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-06-03T10:30:58.867Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 10:30:16 GMT","content-type":"application/json;charset=UTF-8","content-length":"1945","connection":"close","set-cookie":["b266a5bf57=9f371135a524e2d1f51eb9f41fa26c60; Path=/","iamcsr=3e4b1a99-2f76-47c4-b21a-55bd916a4850;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3e4b1a99-2f76-47c4-b21a-55bd916a4850;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-06-03T10:34:56.647Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:34:57.150Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:34:57.151Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:35:19.817Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:35:20.228Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:35:20.228Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:36:15.309Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:36:15.716Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:36:15.717Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:36:33.322Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:36:33.753Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:36:33.754Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:38:02.873Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:38:03.348Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:38:03.351Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:38:55.200Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:38:55.637Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:38:55.637Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:39:03.729Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:39:04.277Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:39:04.277Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:39:12.162Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:39:12.593Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:39:12.594Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:39:21.605Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:39:22.015Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:39:22.016Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:40:30.465Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:40:30.876Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:40:30.877Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:41:17.445Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:41:17.876Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:41:17.877Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:41:24.891Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:41:25.288Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:41:25.288Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:41:28.741Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:41:29.108Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:41:29.109Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:50:49.900Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:50:50.412Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:50:50.412Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:51:24.125Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:51:24.532Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:51:24.535Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:52:23.236Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:52:23.646Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:52:23.647Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:53:27.911Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:53:28.309Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:53:28.310Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:53:45.455Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:53:45.858Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:53:45.859Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:53:59.549Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:53:59.951Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:53:59.951Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:54:30.671Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:54:31.077Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:54:31.078Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:55:06.661Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:55:07.057Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:55:07.058Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:56:38.445Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:56:38.852Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:56:38.853Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:56:45.338Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:56:45.773Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:56:45.774Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:57:19.077Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:57:19.477Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:57:19.478Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:58:04.848Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:58:05.268Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:58:05.268Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:58:20.663Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:58:21.089Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:58:21.089Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T10:59:00.732Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T10:59:01.134Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T10:59:01.134Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T11:00:07.912Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T11:00:08.340Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T11:00:08.341Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
+[info] [2024-06-03T11:05:15.942Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...

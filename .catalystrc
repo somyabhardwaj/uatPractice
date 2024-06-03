@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "23746000000026208",
+      "name": "uat",
+      "domain": {
+        "id": "10082053492",
+        "name": "uat-854056866.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "854056866",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

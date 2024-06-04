@@ -256,3 +256,5 @@ change of index.js in uat_function detected. Preparing your function, please wai
 [info] [2024-06-03T11:00:08.341Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/
 [info] [2024-06-03T11:05:15.942Z] : 
 change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T11:05:16.367Z] : i AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T11:05:16.369Z] : i AdvancedIO[uat_function]: http://localhost:3000/server/uat_function/

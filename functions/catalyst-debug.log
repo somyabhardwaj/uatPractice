@@ -1,0 +1,45 @@
+[debug] [2024-06-03T11:37:39.501Z] : 
+[debug] [2024-06-03T11:37:39.502Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T11:37:39.503Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-06-03T11:37:39.503Z] : CLI Version:  1.17.5
+[debug] [2024-06-03T11:37:39.504Z] : Platform:     win32
+[debug] [2024-06-03T11:37:39.504Z] : Node Version: v18.20.0
+[debug] [2024-06-03T11:37:39.505Z] : Time:         Mon Jun 03 2024 17:07:39 GMT+0530 (India Standard Time)
+[debug] [2024-06-03T11:37:39.506Z] : ----------------------------------------------------------------------
+[debug] [2024-06-03T11:37:39.506Z] : 
+[debug] [2024-06-03T11:37:53.453Z] : > authorizing via signed-in user option
+[debug] [2024-06-03T11:37:53.454Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-06-03T11:37:53.515Z] : > refreshing access token <
+[debug] [2024-06-03T11:37:53.517Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-06-03T11:37:54.756Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 11:37:12 GMT","content-type":"application/json;charset=UTF-8","content-length":"1945","connection":"close","set-cookie":["b266a5bf57=a7f15cb1555106de5ac96d088b72e7c8; Path=/","iamcsr=8cdb2827-af01-451f-b778-6ed73fe64218;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8cdb2827-af01-451f-b778-6ed73fe64218;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T11:37:54.768Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23746000000026208 
+
+[debug] [2024-06-03T11:37:56.144Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 11:37:13 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=e6471bf0-9563-4859-a34d-a367733a76d8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e6471bf0-9563-4859-a34d-a367733a76d8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T11:37:56.146Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23746000000026208/environment 
+
+[debug] [2024-06-03T11:37:56.918Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 11:37:14 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=b3517435-c4dc-4ec4-a79f-8b64d5dfd07e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b3517435-c4dc-4ec4-a79f-8b64d5dfd07e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T11:38:00.138Z] : Build folder already exists, starting cleanup
+[debug] [2024-06-03T11:38:00.186Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2024-06-03T11:38:00.228Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/23746000000026208/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-06-03T11:38:04.548Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 03 Jun 2024 11:37:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=e5f8426f-3006-44d5-a776-8c2612243043;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e5f8426f-3006-44d5-a776-8c2612243043;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-03T11:38:04.552Z] : unknown eol undefined hence skipping check
+[info] [2024-06-03T11:38:05.111Z] : 
+[info] [2024-06-03T11:38:05.112Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-06-03T11:38:05.113Z] : ℹ uat_function: http://localhost:3001/server/uat_function/
+[info] [2024-06-03T11:38:05.113Z] : 
+[info] [2024-06-03T12:02:16.443Z] : 
+change of index.js in uat_function detected. Preparing your function, please wait...
+[info] [2024-06-03T12:02:16.882Z] : ℹ AdvancedIO[uat_function]: ready!
+[info] [2024-06-03T12:02:16.882Z] : ℹ AdvancedIO[uat_function]: http://localhost:3001/server/uat_function/

@@ -20,31 +20,37 @@ app.get('/getUserData', async(req,res)=>{
 	}
 
 })
-app.get('/getUserdata5',async(req,res)=> {
+app.post('/addUser', async(req,res)=>{
+    //    console.log(req.body)
+       const data = req.body.formData
 	try {
-		const adminApp = catalyst.initialize(req,{scope:'admin'});
-		const query= 'SELECT * FROM table1';
-		const response = await adminApp.zcql().executeZCQLQuery(query) ;
-		res.status(200).json({sucess:true,message:"succesfully got data",data:response})
-	} catch (error){
-console.log({error})
-res.status(400).json({success:false,message:"oops",error:error})
-	}
-		
-	}
-)
-app.get('/getUserdata6', async(req,res)=>{
-	try {
-		const adminApp = catalyst.initialize(req,{scope:'admin'});
-		const query = 'SELECT * FROM table1';
-		const response = await adminApp.zcql().executeZCQLQuery(query);
-		res.status(200).json({success:true,message:'succefully got data',data:response})
-		
-	} catch (error) {
+		 const adminApp = catalyst.initialize(req,{scope:'admin'});
+		 const response = await adminApp.datastore().table('table1').insertRow(data)
+		//   console.log({response})
+		 res.status(200).json({success:true,message:"Successfully got data !!", data:response})
+	} 
+	catch (error) {
 		console.log({error})
-		res.status(400).json({success:false,message:'oops',error:error})
-		
+		res.status(400).json({success:false,message:"unSuccessfully got data !!", error:error})
 	}
+
+})
+app.delete('/delete-user/:ROWID', async(req,res)=>{
+
+    console.log("ROWID from frontend",req.params.ROWID)
+    // console.log(req.body)
+    // const data = req.body.formData
+//  try {
+//       const adminApp = catalyst.initialize(req,{scope:'admin'});
+//       const response = await adminApp.datastore().table('table1').insertRow(data)
+//        console.log({response})
+//       res.status(200).json({success:true,message:"Successfully got data !!", data:response})
+//  } 
+//  catch (error) {
+//      console.log({error})
+//      res.status(400).json({success:false,message:"unSuccessfully got data !!", error:error})
+//  }
+
 })
 
 module.exports = app;
